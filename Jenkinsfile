@@ -55,7 +55,7 @@ pipeline {
                    } 
                 } 
             }
-        }
+        
 
         stage ('Build & Push Docker Image') {
             steps {
@@ -70,5 +70,8 @@ pipeline {
                     }
                 }
             }
+        }
+        
+       }
     }
-}
+
